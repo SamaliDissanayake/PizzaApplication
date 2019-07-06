@@ -9,11 +9,10 @@
     android:id="@+id/root">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:background="#fff"
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"></androidx.recyclerview.widget.RecyclerView>
 
 
     <LinearLayout

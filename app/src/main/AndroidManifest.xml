@@ -12,10 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Addcart"></activity>
-        <activity android:name=".Cart" />
+        <activity android:name=".CardPayment"></activity>
+        <activity android:name=".Addcart" />
         <activity android:name=".PayMethod" />
-        <activity android:name=".AddCart" />
         <activity android:name=".Register" />
         <activity android:name=".login">
             <intent-filter>

@@ -26,7 +26,7 @@ public class PayMethod extends AppCompatActivity {
 
     }
     public void cardpay(){
-        Intent card=new Intent(this,AddCart.class);
+        Intent card=new Intent(this,CardPayment.class);
         startActivity(card);
     }
 

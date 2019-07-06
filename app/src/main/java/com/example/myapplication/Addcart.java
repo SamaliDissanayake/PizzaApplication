@@ -73,21 +73,21 @@ public class Addcart extends AppCompatActivity {
               String quan=qty1.getText().toString();
               String price=pizzaprice.getText().toString();
 
-              Toast.makeText(Addcart.this,quan+" "+price,Toast.LENGTH_LONG).show();
-                //String name=String.valueOf(pizzaname.getText());
-               // String price=String.valueOf(pizzaprice.getText());
-                //String quan=String.valueOf(qty1.getText());
+              Toast.makeText(Addcart.this,"Quantiy is"+"  "+quan+" "+"price is"+" "+price+ " "+"Order is Susessfully",Toast.LENGTH_LONG).show();
+
                 name1=name;
                 price1=price;
                 des1=quan;
 
-                //String URL="http://192.168.1.129:8080/demo/addorder?name="+"CheeseLovers"+"&quantity="+"2"+"&price="+"4000";
+
                String URL="http://192.168.1.129:8080/demo/addorder?name="+name+"&quantity="+quan+"&price="+price;
 
                RequestQueue queue = (RequestQueue) Volley.newRequestQueue(Addcart.this);
                StringRequest stringRequest = new StringRequest(Request.Method.GET, URL, new HTTPResponseListner(), new HTTPErrorListner());
                queue.add(stringRequest);
                addTrasaction();
+
+
 
 
            }

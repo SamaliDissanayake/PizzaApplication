@@ -57,7 +57,7 @@ public class PizzaAdapter extends RecyclerView.Adapter<PizzaAdapter.ProductViewH
 
         Log.e("Pizza Adapter",PizzaImage);
          Picasso.get().load(PizzaImage).into(holder.imageView);
-        //Glide.with(mtx.getApplicationContext()).load(PizzaImage).into(holder.imageView);
+
 
     }
 
